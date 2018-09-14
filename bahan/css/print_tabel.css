@@ -1,0 +1,43 @@
+body {
+	background: #fff;
+	color: #444;
+	font: 100%/30px 'verdana';
+	text-shadow: 0 1px 0 #fff;
+}
+
+table {
+	background: #fff;
+	border-collapse: 1px;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 15px;
+	line-height: 15px;
+	margin: auto;
+	text-align: left;
+	width: 300px;
+	height:100px;
+}	
+
+th {
+	background:#fff ;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #000;
+  font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+
+td {
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
